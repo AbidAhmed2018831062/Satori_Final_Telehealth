@@ -1,0 +1,22 @@
+.custom-file-input2::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input2::before {
+    content: 'Change Profile';
+    display: inline-block;
+    background: var(--primary-color, #62C227);   
+    border-radius: 3px;
+    padding: 8px 8px;
+    color: white;
+    outline: none;
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+  }
+  .custom-file-input2:hover::before {
+    border-color: black;
+  }
+  .custom-file-input2:active::before {
+  }
